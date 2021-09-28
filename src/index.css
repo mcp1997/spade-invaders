@@ -1,3 +1,14 @@
+@font-face {
+  font-family: 'press_start_2p';
+  src: url('./assets/fonts/pressstart2p-vav7-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* * {
+  border: solid white 1px;
+} */
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,6 +16,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('./assets/spacebg.png')
 }
 
 code {
